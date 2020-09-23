@@ -3,10 +3,10 @@ import time
 import threading
 
 
-consumer_key = ""
-consumer_secret = ""
-access_token = ""
-access_token_secret = ""
+consumer_key = "" #please enter your key here
+consumer_secret = "" #please enter your key here
+access_token = "" #please enter your key here
+access_token_secret = "" #please enter your key here
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
