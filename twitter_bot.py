@@ -12,7 +12,7 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth, wait_on_rate_limit=True) 
-user = api.get_user('lone_creation')
+user = api.get_user('') #please enter your username here
 public_tweets = api.home_timeline()
 
 all_tweets = []
