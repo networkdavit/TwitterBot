@@ -1,5 +1,5 @@
 import tkinter as tk
-import text as info
+#import text as info
 import twitter_bot as bot
 
 
@@ -97,8 +97,8 @@ def about_button():
 	about_window.resizable(width=False, height=False)
 	about_window.title("About")
 
-	about_text = tk.Label(about_window, text = info.about_text , padx = 23, pady = 30)
-	about_text.grid(row = 0, column = 0)
+	#about_text = tk.Label(about_window, text = info.about_text , padx = 23, pady = 30)
+	#about_text.grid(row = 0, column = 0)
 
 	close_window = tk.Button(about_window, text = "Close", 
 		padx = 96, pady = 30, command = lambda: about_window.destroy())

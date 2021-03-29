@@ -1,1 +1,0 @@
-about_text = "About this app \n This Twitter Bot is a personal project \n developed by Davit Hayrapetyan \n In order to use this bot \n you need to enter your own\n Consumer Key, Consumer Secret\n Access Token and \n Access Token Secret\n provided by \n Twitter Developer account"
